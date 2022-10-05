@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <defaultCache eternal="true" maxElementsInMemory="1000" overflowToDisk="false" />
+    <cache name="streets"
+           maxElementsInMemory="1000"
+           timeToIdleSeconds="30"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+</ehcache>
